@@ -1,0 +1,20 @@
+.search-box{
+  width : 90%;
+  padding : .25rem;
+  font-size : 1.2em;
+  outline : none ; 
+  margin : 2rem 0;
+  border:  none ; 
+  border-bottom : 2px solid rgba(27, 27, 250, 0.897);
+  transition: all .2s ease-out;
+}
+
+@media (min-width : 600px){
+  .search-box{
+    width : 500px;
+  }
+}
+
+.search-box:focus{
+  border-bottom : 2px solid orange;
+}
